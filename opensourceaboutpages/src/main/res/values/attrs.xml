@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="LogoCard">
+        <attr name="logoSrc" format="integer" />
+        <attr name="appName" format="string" />
+        <attr name="copyright" format="string" />
+        <attr name="appNameTextSize" format="float" />
+        <attr name="appNameTextColor" format="color" />
+        <attr name="copyrightTextSize" format="float" />
+        <attr name="copyrightTextColor" format="color" />
+    </declare-styleable>
+
+    <declare-styleable name="MessageCard" >
+        <attr name="title" format="string" />
+        <attr name="titleTextColor" format="color" />
+        <attr name="titleTextSize" format="float" />
+    </declare-styleable>
+
+</resources>

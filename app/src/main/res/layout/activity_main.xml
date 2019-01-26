@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical">
+
+    <io.github.varenyzc.opensourceaboutpages.LogoCard
+        android:id="@+id/logo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:appName="@string/app_name"
+        app:copyright="©2019 varenyzc"
+        app:logoSrc="@drawable/ic_launcher_round">
+
+    </io.github.varenyzc.opensourceaboutpages.LogoCard>
+    <io.github.varenyzc.opensourceaboutpages.MessageCard
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:title="作者"
+        android:id="@+id/message">
+
+    </io.github.varenyzc.opensourceaboutpages.MessageCard>
+
+</LinearLayout>
