@@ -122,6 +122,26 @@ public class LogoCard extends CardView {
         return this;
     }
 
+    public LogoCard setAppnameTextSize(float size) {
+        this.tv_appname.setTextSize(size);
+        return this;
+    }
+
+    public LogoCard setAppnameTextColor(int color) {
+        this.tv_appname.setTextColor(color);
+        return this;
+    }
+
+    public LogoCard setCopyrightTextSize(float size) {
+        this.tv_copyright.setTextSize(size);
+        return this;
+    }
+
+    public LogoCard setCopyrightTextColor(int color) {
+        this.tv_copyright.setTextColor(color);
+        return this;
+    }
+
     public LogoCard addMessageItem(@NonNull AboutPageMessageItem... aboutPageMessageItems) {
         for (AboutPageMessageItem temp : aboutPageMessageItems) {
             ll_item.addView(temp);
